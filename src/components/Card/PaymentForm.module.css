@@ -1,0 +1,67 @@
+.paymentFormContainer
+{
+    @apply  flex flex-col md:flex-row justify-between
+}
+.leftCard
+{
+    @apply flex flex-col gap-4  items-center md:items-start
+}
+.cards{
+    @apply  -translate-x-4 md:-translate-x-0
+}
+.leftHeadings h4
+{
+    @apply font-semibold text-xl 
+}
+.leftHeadings p
+{
+    @apply text-sm text-gray-400
+}
+.rightForm
+{
+    @apply flex flex-col gap-8
+}
+
+.rightForm form
+{
+    @apply flex flex-col gap-4
+}
+.logos
+{
+    @apply pt-8 md:pt-0 md:self-end flex flex-row gap-4 
+}
+.cardLogos
+{
+    @apply w-[4rem] h-[4rem]
+}
+.cardLogos img
+{
+    @apply object-contain 
+}
+.formButton
+{
+    @apply py-4 text-center text-white font-semibold bg-blue-500 w-full rounded-md
+}
+
+.inputContainer
+{
+    @apply grid  md:grid-cols-2 gap-4 
+}
+.formInput
+{
+    @apply flex flex-col gap-3
+}
+.formInput input
+{
+    @apply  md:w-[13rem] lg:w-[17rem] px-4 py-2 border border-gray-500 rounded-md bg-gray-200
+}
+.radioInput
+{
+    @apply flex gap-4 items-center
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

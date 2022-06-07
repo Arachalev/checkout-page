@@ -1,0 +1,40 @@
+.checkoutContainer
+{
+    @apply flex flex-col px-4 md:px-12 gap-10 pb-20 pt-10
+}
+.headerContainer
+{
+    @apply self-end
+}
+.checkoutDetails
+{
+    @apply flex flex-col gap-4  
+}
+.prices
+{
+    @apply flex flex-col gap-4 pb-6
+}
+.pricesContainer
+{
+    @apply flex justify-between
+}
+.pricesContainer p
+{
+    @apply font-semibold
+}
+.pricesContainer span
+{
+    @apply text-xs md:text-base text-gray-400
+}
+.payment
+{
+    @apply flex items-center  gap-4 flex-col md:flex-row justify-between pt-8
+}
+.payment p
+{
+    @apply  font-bold text-xl
+}
+.payment button
+{
+    @apply px-8 py-2 text-white bg-blue-500 rounded-md font-semibold
+}
